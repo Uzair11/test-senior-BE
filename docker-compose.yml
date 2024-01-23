@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: test-flask-app
+    environment:
+      - FLASK_APP=__init__.py
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
+      - DB_HOST=${DB_HOST}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+    networks:
+      - test-flask-network
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/src
+    depends_on:
+      - db
+  db:
+    build:
+      context: ./db
+    environment:
+      - POSTGRES_PASSWORD=postgres12345
+    volumes:
+      - dev-db-data:/var/lib/postgresql/data
+    ports:
+      - "9020:5432"
+    networks:
+      - test-flask-network
+
+
+# Define networks
+networks:
+  test-flask-network:
+
+# Data persistence
+volumes:
+  dev-db-data:
+    name: dev-db-data
