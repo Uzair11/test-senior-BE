@@ -1,0 +1,31 @@
+summary: "Register a user"
+description: "This API is used to register a user in our DB"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+parameters:
+  - in: "body"
+    name: "body"
+    description: "Accepts an input dictionary of user details"
+    required: true
+    schema:
+      type: "object"
+      properties:
+        username:
+          type: "string"
+        password:
+          type: "string"
+        email:
+          type: "string"
+      example: { "username": "uzair123", "email": "uzair@gmail.com", "password": "asdasde1321" }
+responses:
+  400:
+    description: "Same response is for 202, 400, 403"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"

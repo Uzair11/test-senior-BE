@@ -1,0 +1,35 @@
+summary: "Find Table in Database"
+description: "This API endpoint checks if a specific table exists within a database identified by credentials ID. The endpoint requires JWT authentication and is used to validate the presence of a table in the user's specified database."
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+parameters:
+  - in: "query"
+    name: "db_creds_id"
+    description: "The unique identifier for the database credentials"
+    required: true
+    type: "integer"
+  - in: "query"
+    name: "table_name"
+    description: "The name of the table to check for in the database"
+    required: true
+    type: "string"
+responses:
+  200:
+    description: "Successful check of table existence in the database"
+    schema:
+      type: "object"
+      properties:
+        exists:
+          type: "boolean"
+          description: "Indicates whether the table exists or not"
+  400:
+    description: "Invalid request, such as missing required parameters or unsupported database type"
+    schema:
+      type: "object"
+      properties:
+        errors:
+          type: "string"
+security:
+  - jwt: []

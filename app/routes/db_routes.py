@@ -1,9 +1,11 @@
 import asyncio
+import os
 
 from flask import Blueprint, jsonify, request
 from flask_jwt_extended import jwt_required, get_current_user
 from marshmallow import ValidationError
 from sqlalchemy.exc import SQLAlchemyError
+from flasgger.utils import swag_from
 
 from app.lib.connection_utils import prepare_creds
 from app.lib.queries_manager import fetch_db_info_postgres, fetch_db_info_mysql, fetch_table_exists_postgres, \
@@ -14,7 +16,7 @@ from app.serializers.base import BaseDBCredsSchema
 
 dbRoute = Blueprint('dbRoute', __name__)
 
-
+@swag_from(f'{os.getcwd()}/app/api_docs/submit_db_creds.yml')
 @dbRoute.route('/submit-creds', methods=['POST'])
 @jwt_required()
 def submit_db_creds():
@@ -32,9 +34,11 @@ def submit_db_creds():
         return jsonify({"errors": err.messages}), 400
 
 
+@swag_from(f'{os.getcwd()}/app/api_docs/get_db_info.yml')
 @dbRoute.route('/get-db-info', methods=['GET'])
 @jwt_required()
 def get_db_info():
+    import pdb;pdb.set_trace()
     user = get_current_user()
     db_creds_id = request.args.get('db_creds_id', None, type=int)
 
@@ -50,6 +54,7 @@ def get_db_info():
     validated_creds = prepare_creds(validated_data)
 
     db_type = validated_creds.pop('db_type', None)
+    # validated_creds.pop('db_name', None)
     fetch_function = None
 
     if db_type == 'postgresql':
@@ -66,7 +71,7 @@ def get_db_info():
 
 
 
-
+@swag_from(f'{os.getcwd()}/app/api_docs/get_user_dbs.yml')
 @dbRoute.route('/get-db-list',methods=['GET'])
 @jwt_required()
 def get_user_dbs():
@@ -80,7 +85,7 @@ def get_user_dbs():
     except ValidationError as err:
         return jsonify({"errors": err.messages}), 400
 
-
+@swag_from(f'{os.getcwd()}/app/api_docs/find_table_from_db.yml')
 @dbRoute.route('/find-table-from-db',methods=['GET'])
 @jwt_required()
 def find_table_from_db():

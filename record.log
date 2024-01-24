@@ -194,3 +194,500 @@
 2024-01-23 20:18:21,220 INFO werkzeug MainThread :  * Restarting with stat
 2024-01-23 20:18:22,176 WARNING werkzeug MainThread :  * Debugger is active!
 2024-01-23 20:18:22,177 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:35:28,457 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.26.0.3:5000
+2024-01-24 09:35:28,458 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-01-24 09:35:28,460 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:35:29,731 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:35:29,735 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:38:42,328 INFO werkzeug MainThread :  * Detected change in '/src/app/__init__.py', reloading
+2024-01-24 09:38:42,507 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:38:43,504 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:38:43,505 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:42:15,927 INFO werkzeug MainThread :  * Detected change in '/src/app/__init__.py', reloading
+2024-01-24 09:42:16,090 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:42:17,181 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:42:17,182 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:42:56,362 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 09:42:56] "[33mGET / HTTP/1.1[0m" 404 -
+2024-01-24 09:42:56,505 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 09:42:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-24 09:44:33,034 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "[32mGET /apidocs/index.html HTTP/1.1[0m" 302 -
+2024-01-24 09:44:33,074 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 09:44:33,115 INFO werkzeug Thread-9 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-01-24 09:44:33,119 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-01-24 09:44:33,121 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-01-24 09:44:33,122 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-01-24 09:44:33,615 INFO werkzeug Thread-10 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 09:44:33,637 INFO werkzeug Thread-11 : 192.168.65.1 - - [24/Jan/2024 09:44:33] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-01-24 09:46:16,641 INFO werkzeug MainThread :  * Detected change in '/src/app/__init__.py', reloading
+2024-01-24 09:46:16,779 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:46:18,049 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:46:18,060 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:47:29,156 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/auth_routes.py', reloading
+2024-01-24 09:47:29,283 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:47:30,399 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:47:30,400 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:47:34,526 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/auth_routes.py', reloading
+2024-01-24 09:47:34,660 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:47:36,063 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:47:36,065 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:50:45,517 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 09:50:45,546 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 09:50:45,548 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 09:50:45,554 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 09:50:45,559 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 09:50:45,647 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 09:50:45,657 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 678, in parse_docstring
+    swag = yaml.safe_load(full_doc)
+  File "/usr/local/lib/python3.9/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/usr/local/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/usr/local/lib/python3.9/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/usr/local/lib/python3.9/site-packages/yaml/parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    summary: "Register a user"
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 4, column 4:
+    - "application/json"
+       ^
+2024-01-24 09:50:45,703 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 09:50:45] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 09:51:48,468 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.26.0.3:5000
+2024-01-24 09:51:48,469 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-01-24 09:51:48,470 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:51:49,378 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:51:49,378 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:51:59,691 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 09:51:59,725 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 09:51:59,730 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 09:51:59,733 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 09:51:59,735 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 09:51:59,854 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 678, in parse_docstring
+    swag = yaml.safe_load(full_doc)
+  File "/usr/local/lib/python3.9/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/usr/local/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.9/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/usr/local/lib/python3.9/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/usr/local/lib/python3.9/site-packages/yaml/parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    summary: "Register a user"
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 4, column 4:
+    - "application/json"
+       ^
+2024-01-24 09:51:59,868 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 09:51:59,898 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 09:51:59] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 09:54:20,486 INFO werkzeug Thread-10 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 09:54:20,510 INFO werkzeug Thread-9 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 09:54:20,513 INFO werkzeug Thread-11 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 09:54:20,522 INFO werkzeug Thread-12 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 09:54:20,525 INFO werkzeug Thread-13 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 09:54:20,614 INFO werkzeug Thread-14 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 09:54:20,642 INFO werkzeug Thread-15 : 192.168.65.1 - - [24/Jan/2024 09:54:20] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 09:56:00,398 INFO werkzeug Thread-16 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 09:56:00,422 INFO werkzeug Thread-17 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 09:56:00,425 INFO werkzeug Thread-18 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 09:56:00,430 INFO werkzeug Thread-19 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 09:56:00,436 INFO werkzeug Thread-20 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 09:56:00,557 INFO werkzeug Thread-22 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 09:56:00,579 INFO werkzeug Thread-21 : 192.168.65.1 - - [24/Jan/2024 09:56:00] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 09:56:11,464 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/auth_routes.py', reloading
+2024-01-24 09:56:11,871 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:56:13,043 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:56:13,044 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:56:15,700 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 09:56:15,729 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 09:56:15,732 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 09:56:15,742 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 09:56:15,746 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 09:56:15,825 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 09:56:15,865 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 09:56:15] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 09:56:25,401 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/auth_routes.py', reloading
+2024-01-24 09:56:25,524 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:56:26,481 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:56:26,482 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:56:27,531 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/auth_routes.py', reloading
+2024-01-24 09:56:27,763 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 09:56:29,149 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 09:56:29,150 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 09:58:13,040 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 09:58:13] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2024-01-24 10:51:08,016 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:51:08,146 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:51:09,135 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:51:09,136 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:51:19,391 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:51:19,532 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:51:20,863 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:51:20,865 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:51:28,169 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:51:28,197 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:51:28,203 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:51:28,205 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:51:28,211 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:51:28,360 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:51:28,385 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/../api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/../api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+AttributeError: 'NoneType' object has no attribute 'has_location'
+2024-01-24 10:51:28,462 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:51:28] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 10:52:08,620 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:52:08,780 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:52:09,804 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:52:09,804 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:52:24,609 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:52:24] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:52:24,648 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:52:24] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:52:24,648 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:52:24] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:52:24,651 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:52:24] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:52:24,653 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:52:24] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:52:24,955 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:52:24] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:52:24,974 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/../api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/../api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+AttributeError: 'NoneType' object has no attribute 'has_location'
+2024-01-24 10:52:25,022 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:52:25] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 10:54:25,351 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:54:25,505 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:54:26,648 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:54:26,649 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:54:40,993 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:54:41,178 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:54:42,288 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:54:42,289 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:54:45,885 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:54:45] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:54:45,909 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:54:45] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:54:45,914 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:54:45] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:54:45,921 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:54:45] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:54:45,929 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:54:45] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:54:46,038 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:54:46] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:54:46,083 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+AttributeError: 'NoneType' object has no attribute 'has_location'
+2024-01-24 10:54:46,224 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:54:46] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 10:55:12,045 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:55:12,180 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:55:13,246 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:55:13,247 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:55:19,768 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:55:19] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:55:19,791 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:55:19] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:55:19,795 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:55:19] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:55:19,805 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:55:19] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:55:19,808 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:55:19] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:55:19,915 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:55:19] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:55:19,965 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/../api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/../api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+AttributeError: 'NoneType' object has no attribute 'has_location'
+2024-01-24 10:55:20,039 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:55:20] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 10:55:57,505 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:55:57,645 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:55:58,767 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:55:58,768 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:56:25,537 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:56:25,700 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:56:26,652 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:56:26,652 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:56:29,902 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:56:29] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:56:29,927 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:56:29] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:56:29,933 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:56:29] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:56:29,938 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:56:29] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:56:29,969 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:56:29] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:56:30,066 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:56:30] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:56:30,105 ERROR root Thread-7 : jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/app/api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.9/site-packages/flask_jwt_extended/app/api_docs/submit_db_creds.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/usr/local/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+  File "/usr/local/lib/python3.9/site-packages/flasgger/utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+AttributeError: 'NoneType' object has no attribute 'has_location'
+2024-01-24 10:56:30,171 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:56:30] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 -
+2024-01-24 10:57:14,159 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:57:14,302 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:57:15,385 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:57:15,386 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:57:18,216 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:57:18,241 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:57:18,243 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:57:18,248 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:57:18,255 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:57:18,418 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:57:18,494 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:57:18] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 10:58:49,107 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 10:58:49,244 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 10:58:50,468 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 10:58:50,469 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 10:58:52,755 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 10:58:52] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 10:58:52,792 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 10:58:52] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 10:58:52,796 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 10:58:52] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 10:58:52,798 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 10:58:52] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 10:58:52,803 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 10:58:52] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 10:58:52,918 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 10:58:52] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 10:58:53,058 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 10:58:53] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 11:00:08,419 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:00:08,557 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:00:10,312 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:00:10,313 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:00:12,652 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 11:00:12,677 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 11:00:12,678 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 11:00:12,683 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 11:00:12,692 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 11:00:12,823 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 11:00:12,917 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 11:00:12] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 11:00:48,992 INFO werkzeug Thread-9 : 192.168.65.1 - - [24/Jan/2024 11:00:48] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 11:00:49,025 INFO werkzeug Thread-10 : 192.168.65.1 - - [24/Jan/2024 11:00:49] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 11:00:49,029 INFO werkzeug Thread-11 : 192.168.65.1 - - [24/Jan/2024 11:00:49] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 11:00:49,042 INFO werkzeug Thread-12 : 192.168.65.1 - - [24/Jan/2024 11:00:49] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 11:00:49,044 INFO werkzeug Thread-13 : 192.168.65.1 - - [24/Jan/2024 11:00:49] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 11:00:49,125 INFO werkzeug Thread-15 : 192.168.65.1 - - [24/Jan/2024 11:00:49] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 11:00:49,220 INFO werkzeug Thread-14 : 192.168.65.1 - - [24/Jan/2024 11:00:49] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 11:02:26,859 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:02:26,989 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:02:28,016 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:02:28,017 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:02:38,995 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 11:02:38] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 11:02:39,032 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 11:02:39] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 11:02:39,039 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 11:02:39] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 11:02:39,044 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 11:02:39] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 11:02:39,056 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 11:02:39] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 11:02:39,260 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 11:02:39] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 11:02:39,354 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 11:02:39] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 11:03:05,101 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:03:05,229 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:03:06,589 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:03:06,590 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:03:07,719 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:03:07,881 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:03:09,081 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:03:09,082 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:03:09,237 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-24 11:03:09,264 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-24 11:03:09,271 INFO werkzeug Thread-4 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-24 11:03:09,277 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-24 11:03:09,318 INFO werkzeug Thread-6 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-24 11:03:09,370 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-24 11:03:09,465 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 11:03:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-24 11:07:27,565 INFO werkzeug Thread-10 : 192.168.65.1 - - [24/Jan/2024 11:07:27] "POST /auth/login HTTP/1.1" 200 -
+2024-01-24 11:08:28,430 INFO werkzeug Thread-12 : 192.168.65.1 - - [24/Jan/2024 11:08:28] "GET /db/get-db-list HTTP/1.1" 200 -
+2024-01-24 11:08:56,083 INFO werkzeug Thread-14 : 192.168.65.1 - - [24/Jan/2024 11:08:56] "[31m[1mGET /db/get-db-info HTTP/1.1[0m" 400 -
+2024-01-24 11:09:05,914 DEBUG asyncio Thread-16 : Using selector: EpollSelector
+2024-01-24 11:09:05,935 INFO werkzeug Thread-16 : 192.168.65.1 - - [24/Jan/2024 11:09:05] "[35m[1mGET /db/get-db-info?db_creds_id=1 HTTP/1.1[0m" 500 -
+2024-01-24 11:09:52,967 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:09:53,149 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:09:54,280 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:09:54,281 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:10:51,717 DEBUG asyncio Thread-3 : Using selector: EpollSelector
+2024-01-24 11:12:48,034 INFO werkzeug MainThread :  * Detected change in '/src/app/lib/connection_utils.py', reloading
+2024-01-24 11:12:48,231 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:12:50,469 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:12:50,471 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:13:03,493 INFO werkzeug Thread-2 : 192.168.65.1 - - [24/Jan/2024 11:13:03] "GET /db/get-db-list HTTP/1.1" 200 -
+2024-01-24 11:13:09,232 INFO werkzeug Thread-5 : 192.168.65.1 - - [24/Jan/2024 11:13:09] "GET /db/get-db-list HTTP/1.1" 200 -
+2024-01-24 11:13:12,618 DEBUG asyncio Thread-7 : Using selector: EpollSelector
+2024-01-24 11:13:12,632 INFO werkzeug Thread-7 : 192.168.65.1 - - [24/Jan/2024 11:13:12] "[35m[1mGET /db/get-db-info?db_creds_id=1 HTTP/1.1[0m" 500 -
+2024-01-24 11:14:04,342 DEBUG asyncio Thread-8 : Using selector: EpollSelector
+2024-01-24 11:14:04,353 INFO werkzeug Thread-8 : 192.168.65.1 - - [24/Jan/2024 11:14:04] "[35m[1mGET /db/get-db-info?db_creds_id=1 HTTP/1.1[0m" 500 -
+2024-01-24 11:14:33,349 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:14:33,508 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:14:34,523 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:14:34,524 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:14:35,573 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:14:35,729 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:14:36,923 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:14:36,923 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:14:58,277 DEBUG asyncio Thread-3 : Using selector: EpollSelector
+2024-01-24 11:16:22,375 INFO werkzeug MainThread :  * Detected change in '/src/app/lib/connection_utils.py', reloading
+2024-01-24 11:16:22,590 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:16:24,672 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:16:24,673 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:16:29,826 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:16:29,985 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:16:31,074 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:16:31,074 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:16:32,134 INFO werkzeug MainThread :  * Detected change in '/src/app/routes/db_routes.py', reloading
+2024-01-24 11:16:32,362 INFO werkzeug MainThread :  * Restarting with stat
+2024-01-24 11:16:33,493 WARNING werkzeug MainThread :  * Debugger is active!
+2024-01-24 11:16:33,495 INFO werkzeug MainThread :  * Debugger PIN: 467-029-795
+2024-01-24 11:17:05,059 DEBUG asyncio Thread-3 : Using selector: EpollSelector
+2024-01-24 11:17:25,140 INFO werkzeug Thread-3 : 192.168.65.1 - - [24/Jan/2024 11:17:25] "GET /db/get-db-info?db_creds_id=1 HTTP/1.1" 200 -

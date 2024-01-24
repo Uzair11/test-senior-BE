@@ -1,0 +1,37 @@
+summary: "Get List of User's Databases"
+description: "This API endpoint retrieves a list of databases associated with the current authenticated user. The endpoint requires JWT authentication."
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+parameters: []
+responses:
+  200:
+    description: "Successful retrieval of the user's database list"
+    schema:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          id:
+            type: "integer"
+          user_id:
+            type: "integer"
+          db_type:
+            type: "string"
+          host:
+            type: "string"
+          port:
+            type: "integer"
+          name:
+            type: "string"
+          # Include other relevant fields of the database credentials here
+  400:
+    description: "Error occurred, such as a database query issue"
+    schema:
+      type: "object"
+      properties:
+        errors:
+          type: "string"
+security:
+  - jwt: []

@@ -1,6 +1,7 @@
 import logging
 from flask import Flask
 from flask_migrate import Migrate
+from flasgger import Swagger
 from flask_jwt_extended import JWTManager
 from app.models import db
 from app.routes import auth_routes, db_routes
@@ -24,6 +25,7 @@ def create_app():
     migrate.init_app(app, db)
     from app.jwt import set_jwt_callbacks
     set_jwt_callbacks()
+    Swagger(app)
     app.register_blueprint(auth_routes.authRoute, url_prefix='/auth')
     app.register_blueprint(db_routes.dbRoute, url_prefix='/db')
     return app

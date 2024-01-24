@@ -1,0 +1,53 @@
+summary: "User Login"
+description: "This API endpoint is used to authenticate a user by their email and password."
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+parameters:
+  - in: "body"
+    name: "body"
+    description: "User credentials required for login"
+    required: true
+    schema:
+      type: "object"
+      properties:
+        email:
+          type: "string"
+          format: "email"
+          description: "User's registered email address"
+        password:
+          type: "string"
+          description: "User's password"
+      example: { "email": "user@example.com", "password": "userPassword123" }
+responses:
+  200:
+    description: "Successful login"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"
+        token:
+          type: "string"
+          description: "Authentication token to be used for subsequent requests"
+  400:
+    description: "Invalid request, such as missing or invalid parameters"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"
+  401:
+    description: "Unauthorized, incorrect email or password"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"

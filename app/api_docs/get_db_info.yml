@@ -1,0 +1,26 @@
+summary: "Get Database Information"
+description: "This API endpoint is used to retrieve information about a database given its credentials ID. The endpoint requires JWT authentication."
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+parameters:
+  - in: "query"
+    name: "db_creds_id"
+    description: "The unique identifier for the database credentials"
+    required: true
+    type: "integer"
+responses:
+  200:
+    description: "Successful retrieval of database information"
+    schema:
+      type: "object"
+  400:
+    description: "Invalid request, such as missing db_creds_id or unsupported database type"
+    schema:
+      type: "object"
+      properties:
+        errors:
+          type: "string"
+security:
+  - jwt: []

@@ -1,0 +1,99 @@
+summary:  "Submit DB Credentials"
+description: "This API is used to submit DB credentials"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+parameters:
+  - in:  "body"
+    name: "body"
+    description: "Accepts an input dictionary of DB credentials"
+    required: true
+    schema:
+      type: "object"
+      properties:
+        db_name:
+          type: "string"
+        username:
+          type: "string"
+        password:
+          type: "string"
+        host:
+          type: "string"
+        port:
+          type: "integer"
+        db_type:
+          type: "string"
+responses:
+  200:
+    description: "Same response is for 200, 400, 403"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"
+        data:
+          type: "object"
+          properties:
+            db_name:
+              type: "string"
+            username:
+              type: "string"
+            password:
+              type: "string"
+            host:
+              type: "string"
+            port:
+              type: "integer"
+            db_type:
+              type: "string"
+  400:
+    description: "Same response is for 200, 400, 403"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"
+        data:
+          type: "object"
+          properties:
+            db_name:
+              type: "string"
+            username:
+              type: "string"
+            password:
+              type: "string"
+            host:
+              type: "string"
+            port:
+              type: "integer"
+            db_type:
+              type: "string"
+  403:
+    description: "Same response is for 200, 400, 403"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        message:
+          type: "string"
+        data:
+          type: "object"
+          properties:
+            db_name:
+              type: "string"
+            username:
+              type: "string"
+            password:
+              type: "string"
+            host:
+              type: "string"
+            port:
+              type: "integer"
+            db_type:
+              type: "string"

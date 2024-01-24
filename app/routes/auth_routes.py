@@ -1,5 +1,6 @@
 import time
 from flask import Blueprint, jsonify, request, abort
+from flasgger.utils import swag_from
 from sqlalchemy.exc import SQLAlchemyError
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import (
@@ -15,6 +16,7 @@ from app.serializers.base import BaseUserSerializer
 
 authRoute = Blueprint('authRoute', __name__)
 
+@swag_from('../api_docs/register_user.yml')
 @authRoute.route('/register', methods=['POST'])
 def register_user():
     try:
@@ -29,12 +31,12 @@ def register_user():
     except Exception as err:
         return jsonify({"errors": err}), 400
 
+@swag_from('../api_docs/login_user.yml')
 @authRoute.route('/login', methods=['POST'])
 def login_user():
     try:
         login_creds = dict(request.get_json())
         user = User.query.filter_by(email=login_creds['email']).first()
-        print(">>>>>user",user.password)
         if not user:
             return jsonify({"errors": "User not found"}), 400
         if not user.password == login_creds['password']:
